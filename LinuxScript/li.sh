@@ -25,7 +25,7 @@ if [ $exitstatut = 0 ]; then
 			   if [ $PathExist = 0 ];
 then
   
-		tar -zcvf $pathone.tar $pathone
+		tar -cvf $pathone.tar $pathone
 		
 fi	
 
